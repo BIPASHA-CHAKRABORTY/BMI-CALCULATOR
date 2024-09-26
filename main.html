@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title align="center">BMI CALCULATOR</title>
+    <link rel="stylesheet" href="styles.css"> 
+  </head>
+<body>
+  <div class="container">
+    <h1><strong>BMI CALCULATOR</strong></h1>
+    <h3><em><strong>Stay fit, Stay healthy</strong></em></h3>
+    
+    <form id="personalinfo">
+      <div>
+        <label for="age">Enter your age:</label>
+        <input type="number" id="age" name="age" required>
+      </div>
+      
+      <div>
+        <label for="weight">Enter your weight (in kgs):</label>
+        <input type="number" id="weight" name="weight" required>
+      </div>
+      
+      <div>
+        <label for="height">Enter your height (in meters):</label>
+        <input type="number" step="0.01" id="height" name="height" required>
+      </div>
+      
+      <button type="submit">Calculate</button>
+    </form>
+  </div>
+  
+  <footer>
+    <p align="center">Made by BIPASHA CHAKRABORTY</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body> 
+</html>
